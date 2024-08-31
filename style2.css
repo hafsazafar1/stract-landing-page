@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+  **
+  **
+  ** Css of Header
+  **
+  **
+  */
+
+header {
+    display: flex;
+    background-color: #12141D;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 10px 55px;
+}
+
+.links ul {
+    display: flex;
+    gap: 25px;
+
+}
+
+.links a {
+    color: #fff;
+}
+
+.links a:hover,
+.links a.active {
+    color: #2B59FF;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+.buttons button {
+    padding: 10px 40px;
+    background-color: #2B59FF;
+    color: #fff;
+    border-radius: 25px;
+    border: 0;
+}
+
+.buttons .fa-solid {
+    color: #fff;
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .links {
+        position: absolute;
+        background-color: #12141d;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 200px;
+        padding: 50px;
+        display: none;
+ 
+    }
+
+    .links.active {
+        display: block;
+    }
+
+    .links ul {
+        flex-direction: column;
+
+    }
+
+    .buttons .fa-solid {
+        display: block;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+}

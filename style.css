@@ -1,20 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-
+    font-family: "Inter", sans-serif;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*
@@ -26,112 +25,194 @@ a {
   */
 
 header {
-    display: flex;
-    background-color: #12141D;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-    padding: 10px 55px;
+  display: flex;
+  background-color: #12141d;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 10px 55px;
 }
 
 .links ul {
-    display: flex;
-    gap: 25px;
-
+  display: flex;
+  gap: 25px;
 }
 
 .links a {
-    color: #fff;
+  color: #fff;
 }
 
 .links a:hover,
 .links a.active {
-    color: #2B59FF;
-    border-bottom: 2px solid;
-    cursor: pointer;
+  color: #2b59ff;
+  border-bottom: 2px solid;
+  cursor: pointer;
 }
 
 .buttons button {
-    padding: 10px 40px;
-    background-color: #2B59FF;
-    color: #fff;
-    border-radius: 25px;
-    border: 0;
+  padding: 10px 40px;
+  background-color: #2b59ff;
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
 }
 
 .buttons .fa-solid {
-    color: #fff;
-    display: none;
+  color: #fff;
+  display: none;
+}
+
+
+
+
+/*
+  **
+  **
+  ** Css of Hero-section
+  **
+  **
+  */
+
+.hero-section {
+  background-color: #12141d;
+  padding: 120px 10px;
+  padding-bottom: 300px;
+}
+.hero-section b {
+  color: #2b59ff;
+  text-decoration: underline;
+}
+
+.hero-section h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.hero-section p {
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.hero-section button {
+  padding: 10px 40px;
+  background-color: #2b59ff;
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
+}
+
+.hero-image img {
+  transform: translateY(-35%);
+}
+
+/*
+  **
+  **
+  ** Css of swiper section
+  **
+  **
+  */
+
+.swiper {
+  height: 150px;
+}
+
+.swiper .swiper-slide {
+    height: 100px!important;
+}
+.swiper .swiper-slide img{
+    background: #E3E3E3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+/*
+  **
+  **
+  ** Css of services
+  **
+  **
+  */
+
+  .services{
+    padding: 30px 0px;
+  }
+
+  .services .service-card{
+    background-color: #FAFAFA;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin:20px 0px ;
+  }
+
+
+  .service-card .icon{
+    border:1px solid #E3E3E3;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26px;
+    color: #000;
+  }
+
+  .service-card h6{
+    margin: 15px 0px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .service-card p{
+    color: #8A8A8A;
+  }
+
+  .services .service-card:hover{
+    background-color: #2b59ff;
+    color: #ffff;
+  }
+
+/* common classes */
+
+.blue-text {
+  color: #2b59ff;
 }
 
 @media screen and (max-width: 991px) {
+  header {
+    padding: 10px;
+  }
 
-    header {
-        padding: 10px;
-    }
+  .links {
+    position: absolute;
+    background-color: #12141d;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 200px;
+    padding: 80px 50px;
+    display: none;
+  }
 
-    .links {
-        position: absolute;
-        background-color: #12141d;
-        left: 0;
-        bottom: 0;
-        height: 100vh;
-        width: 200px;
-        padding: 80px 50px;
-        display: none;
+  .links.active {
+    display: block;
+  }
 
-    }
+  .links ul {
+    flex-direction: column;
+  }
 
-    .links.active {
-        display: block;
-    }
+  .buttons .fa-solid {
+    display: block;
+  }
 
-    .links ul {
-        flex-direction: column;
-
-    }
-
-    .buttons .fa-solid {
-        display: block;
-    }
-
-    .buttons {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-}
-.hero-section{
-background-color: #12141D;
-padding: 120px 10px ;
-padding-bottom: 300px;
-
-} 
- .hero-section b{
-    color: #2B59FF;
-text-decoration: underline;
-    
-}
-
- .hero-section h1{
-    color: #fff;
-   font-size: 60px;
-   line-height: 65px;
-}
-
-.hero-section p{
-color: #FAFAFA;
-font-size: 20px;
-}
-
-.hero-section button{
-    padding: 10px 40px;
-    background-color: #2B59FF;
-    color: #fff;
-    border-radius: 25px;
-    border: 0;
-}
-.hero-img img{
-  transform:  translateY(-35%);
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 }

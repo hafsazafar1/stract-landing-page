@@ -66,7 +66,7 @@ header {
 
 @media screen and (max-width: 991px) {
 
-    header{
+    header {
         padding: 10px;
     }
 
@@ -79,7 +79,7 @@ header {
         width: 200px;
         padding: 80px 50px;
         display: none;
- 
+
     }
 
     .links.active {
@@ -101,4 +101,37 @@ header {
         gap: 10px;
     }
 
+}
+.hero-section{
+background-color: #12141D;
+padding: 120px 10px ;
+padding-bottom: 300px;
+
+} 
+ .hero-section b{
+    color: #2B59FF;
+text-decoration: underline;
+    
+}
+
+ .hero-section h1{
+    color: #fff;
+   font-size: 60px;
+   line-height: 65px;
+}
+
+.hero-section p{
+color: #FAFAFA;
+font-size: 20px;
+}
+
+.hero-section button{
+    padding: 10px 40px;
+    background-color: #2B59FF;
+    color: #fff;
+    border-radius: 25px;
+    border: 0;
+}
+.hero-img img{
+  transform:  translateY(-35%);
 }

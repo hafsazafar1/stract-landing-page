@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 li {
@@ -78,6 +78,7 @@ header {
   padding: 120px 10px;
   padding-bottom: 300px;
 }
+
 .hero-section b {
   color: #2b59ff;
   text-decoration: underline;
@@ -119,12 +120,13 @@ header {
 }
 
 .swiper .swiper-slide {
-    height: 100px!important;
+  height: 100px !important;
 }
-.swiper .swiper-slide img{
-    background: #E3E3E3;
-    padding: 20px;
-    border-radius: 10px;
+
+.swiper .swiper-slide img {
+  background: #E3E3E3;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 
@@ -137,44 +139,44 @@ header {
   **
   */
 
-  .services{
-    padding: 30px 0px;
-  }
+.services {
+  padding: 30px 0px;
+}
 
-  .services .service-card{
-    background-color: #FAFAFA;
-    padding: 20px 15px;
-    border-radius: 10px;
-    margin:20px 0px ;
-  }
+.services .service-card {
+  background-color: #FAFAFA;
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
 
 
-  .service-card .icon{
-    border:1px solid #E3E3E3;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 26px;
-    color: #000;
-  }
+.service-card .icon {
+  border: 1px solid #E3E3E3;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 26px;
+  color: #000;
+}
 
-  .service-card h6{
-    margin: 15px 0px;
-    padding: 0px;
-    font-weight: 700;
-    font-size: 20px;
-  }
+.service-card h6 {
+  margin: 15px 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
 
-  .service-card p{
-    color: #8A8A8A;
-  }
+.service-card p {
+  color: #8A8A8A;
+}
 
-  .services .service-card:hover{
-    background-color: #2b59ff;
-    color: #ffff;
-  }
+.services .service-card:hover {
+  background-color: #2b59ff;
+  color: #ffff;
+}
 
 /* common classes */
 
@@ -182,6 +184,252 @@ header {
   color: #2b59ff;
 }
 
+/*
+  **
+  **
+  ** Css of data-security
+  **
+  **
+  */
+.data-security {
+  background-color: #F9FAFC;
+  padding: 80px 20px;
+}
+
+.data-security .row {
+  align-items: center;
+
+}
+
+.data-security h5 {
+  font-weight: bold;
+}
+
+.data-security p {
+  color: #4B4B4B;
+}
+
+.col-4 .first,
+.second,
+.third {
+  margin-bottom: 10px;
+}
+
+.col-4 i {
+  padding-top: 20px;
+}
+
+.first {
+  border: 1px solid white;
+  background-color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+margin-bottom: 10px;
+
+}
+
+.first i {
+  color: #008EFF;
+  background-color: #A0CCF1;
+  ;
+  border: 1px solid #A0CCF1;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.second i {
+  color: cadetblue;
+  background-color: #8AF0AD;
+  ;
+  border: 1px solid #8AF0AD;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.third i {
+  color: palevioletred;
+  background-color: rgb(224, 200, 204);
+  border: 1px solid rgb(224, 200, 204);
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.second {
+  border: 1px solid white;
+  background-color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  margin-bottom: 10px;
+}
+
+.third {
+  border: 1px solid white;
+  background-color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  
+}
+
+/*
+  **
+  **
+  ** use-of-stract
+  **
+  **
+  */
+
+
+.use-of-stract{
+text-align: center;
+padding-top: 70px;
+}
+.use-of-stract h1{
+  font-weight: bolder;
+}
+.use-of-stract h4{
+  font-weight: bold;
+}
+.use-of-stract p{
+  color: #4B4B4B;
+  padding-bottom: 50px;
+}
+.col-first i{
+  color:white;
+  font-size: xx-large;
+  background-color: #2b59ff;
+  border: 1px solid #2b59ff;
+  padding: 40px;
+  border-radius: 50%;
+  margin-bottom:20px ;
+}
+.col-second i{
+  color:white;
+  font-size: xx-large;
+  background-color: #6F4BE5;
+  border: 1px solid #6F4BE5;
+  padding: 40px;
+  border-radius: 50%;
+  margin-bottom:20px ;
+}
+.col-third i{
+  color:white;
+  font-size: xx-large;
+  background-color: #000;
+  border: 1px solid #000;
+  padding: 40px;
+  border-radius: 50%;
+  margin-bottom:20px ;
+}
+/*
+  **
+  **
+  ** contact-us
+  **
+  **
+  */
+
+  .contact-us{
+    background-color:#2b59ff;
+    align-items: center;
+    text-align: center;
+    padding: 70px 100px;
+    margin: 70px 140px;
+    border-radius: 15px;
+  }
+  .contact-us h1{
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  .contact-us p{
+    color:#FAFAFA;
+    padding-bottom: 20px;
+  }
+  .contact-us button{
+background-color: #000;
+color: #fff;
+padding: 15px 35px;
+border-radius: 35px;
+border: none;
+  }
+  /*
+  **
+  **
+  ** footer
+  **
+  **
+  */
+  .footer{
+    align-items: center;
+    background-color: #12141d;
+    padding:180px 0px;
+  
+  }
+
+  .footer h5{
+    color: #fff;
+    padding-bottom: 30px;
+    
+  }
+  .footer p{
+    color: #B9B3B3;
+    
+  }
+  .footer img{
+    padding-bottom: 30px;
+  }
+  .footer i{
+    color: #fff;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+  
+  }
+  .footer .fI{
+    background-color: #008EFF;
+    align-items: center;
+  }
+  .footer i{
+    margin-left: 5px;
+  }
+  .input-parent{
+    display: flex;
+  }
+  .footer input{
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .footer button{
+   
+    color: white;
+    background-color: #2b59ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    
+
+  }
+  .lower-footer {
+    background-color:  #12141d;
+  text-align: center;
+  
+  }
+  .lower-footer p{
+    color: #fff;
+  }
+  .lower-footer hr{
+    color: #F9FAFC;
+  }
 @media screen and (max-width: 991px) {
   header {
     padding: 10px;
@@ -204,6 +452,7 @@ header {
 
   .links ul {
     flex-direction: column;
+    
   }
 
   .buttons .fa-solid {
@@ -214,5 +463,6 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+
   }
 }
